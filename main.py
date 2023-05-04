@@ -10,18 +10,18 @@ todaysYear = input("What year is it?\n")
 timePassed = int(todaysYear) - breachYear
 print("Wow! That means it has been " + str(timePassed) + " years since the Facebook data breach.")
 
-
 #Introduces breach
 print("Would you like to learn about the Facebook data 2019 breach?")
 giveInfo = input("Type 'yes' or 'no'\n")
 
 #Explains breach
 while giveInfo.lower() == "yes":
-  print("What would you like to learn more about? Enter the lowercase letter of the following options: \n(a) breach details, (b) organization's response, or (c) I would like to hear your reflection")
+  print("What would you like to learn more about? Enter the lowercase letter of the following options: \n
+  (a) breach details, (b) organization's response, or (c) I would like to hear your reflection")
   topic = input()
   
   if topic.lower() == "a":
-    print("Personal information of 530 million people was stolen from user profiles on Facebook including phone numbers, full names, locations, and email addresses. The hack was by malicious actors  who took data by exploiting a feature that allowed users to find each other by phone number.")
+    print("Personal information of 530 million people was stolen from user profiles on Facebook including phone numbers, full names, locations, and email addresses.The hack was by malicious actors who took data by exploiting a feature that allowed users to find each other by phone number.")
   
   elif topic.lower() == "b":
     print("Facebook found and fixed the issue in August 2019, the breached information is already publicly available and it was not an issue users could fix themselves. Recommended by cybersecurity expert, check the data tracking tool HaveIBeenPwned.com to see if your data has been breached.")
@@ -41,7 +41,8 @@ giveInfo = input("Type 'yes' or 'no'\n")
 
 #Explains my take
 while giveInfo.lower() == "yes":
-  print("What would you like to learn more about? Enter the lowercase letter of the following options: \n(a) relation to the CIA Triad, (b) my reaction, (c) my advice, or (d) none")
+  print("What would you like to learn more about? Enter the lowercase letter of the following options: \n
+  (a) relation to the CIA Triad, (b) my reaction, (c) my advice, or (d) none")
   topic = input()
   
   if topic.lower() == "a":
