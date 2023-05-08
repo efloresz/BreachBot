@@ -34,7 +34,6 @@ while giveInfo.lower() == "yes":
   
   input("Press enter to continue\n")
 
-
 #Introduces my take
 print("\nI'm excited to share my perspective with you. Are you ready to hear my take?")
 giveInfo = input("Type 'yes' or 'no'\n")
