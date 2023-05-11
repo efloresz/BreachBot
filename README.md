@@ -1,5 +1,5 @@
 # Breach Bot Project
- A Chatbot That Educates Users About the 2019 Facebook Data Breach. Created August 25, 2022
+ A Chatbot That Educates Users About the 2019 Facebook Data Breach.
 
 This program creates a chatbot that greets the user, asks if they want to learn about the 2019 Facebook data breach, and provides information about the breach upon request. The chatbot also offers its perspective on the breach, including its relation to the CIA Triad, its opinion on Facebook's response, and its advice for users who may be affected by the breach. 
 # Purpose
@@ -19,3 +19,7 @@ This program creates a chatbot that greets the user, asks if they want to learn 
 * Cybersecurity knowledge: The program provides information on a real-world cybersecurity event, including details of the Facebook data breach, the organization's response, and the chatbot creator's advice for users.
 
 * Critical thinking and problem solving: The program requires critical thinking and problem-solving skills to create a chatbot that interacts with the user and provides information on a complex cybersecurity event.
+```
+Analysis
+~ Created 08/25/22
+~ Status: Completed
